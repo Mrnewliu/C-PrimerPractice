@@ -1,0 +1,22 @@
+2.1  int，long,和short类型之间有什么区别？
+	int,long,short,占用的存储空间不同，short占用半个机器字长，int占一个机器字长，
+	long一般占用一个或者两个机器字长（在32位下，一般int和long一样占用32位）。
+
+2.2  unsigned和signed类型有什么区别？
+      带符号和无符号
+
+2.3 如果在某机器上short类型占16位，那么可以赋给short类型最大数是什么?
+    unsigned short最大又是什么？
+	short最大数： 2^16/2-1;
+	unsigned short 最大数： 2^16-1；
+2.4 当给16位的unsigned short对象赋值100000时，赋的值是什么？
+      32
+
+2.5 float类型和double类型有什么区别？
+     float 单精度 
+	 double 双精度
+
+2.6 要抵押贷款的偿还金额，利率，本金和付款额应分别选用那种类型？解释你选择的理由。
+     这里都选用float就够了，float可以保持6位有效数字，实际生活中使用分就够了。
+	
+
