@@ -1,6 +1,6 @@
 2.14 下面那些名字非法(如果有)的？更正每个非法的标识符名字
   (a) int double = 3.141592    非法 double a =   3.141592   (b) char _;
-  (c) bool catch-22       非法 catch_22         (d) char 1_or_2 = '1';  非法 or_1_2 = '1';
+  (c) bool catch-22       非法 catch_22         (d) char 1_or_2 = '1';  非法 one_or_two = '1';
   (e) float Float = 3.14f;
 
 
