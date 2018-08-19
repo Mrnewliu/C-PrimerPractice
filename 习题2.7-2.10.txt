@@ -1,26 +1,32 @@
 习题2.7 解释系列字面值常量的不同之处。
 	(a) 'a', L'a', "a", L"a"
+	  char,  wchar_t, 字符串，宽字符串
 	(b) 10, 10u, 10L, 10uL, 012, 0xc
+	   int, unsigned, long, unsigned long, 八进制， 十六进制
 	(c) 3.14, 3.14f, 3.14L
+	    double, float , long double
 
 习题2.8  确定下列字面值常量的类型
 	(a) -10,	(b) -10u,	(c) -10.0,	(d) -10e-2
-	
+	 int                 unsigned       double          double
 
 习题2.9 下列哪些(如果有)是非法的？
 	(a) "Who goes with F\145rgus?\012"
-	(b) 3.14e1L		(c) "two" L"some"
-	(d) 1024f		(e) 3.14UL
+	(b) 3.14e1L		(c) "two" L"some" 非法，字符串字面值与宽字符字面值连接未定义
+	(d) 1024f 非法 ，整数后面不能接f	
+	(e) 3.14UL  非法，小数后面不能跟U
 	(f) "multiple line
-		comment"
+		comment"  非法，没有转接符
 
 习题2.10 使用转义字符编写一段程序，输出2M，然后换行、修改程序，输出2，跟着一个制表符，
 		然后是M，最后是换行符。
 		
-		
-		
+	cout << "2M"  << endl;
 
-		
+	cout << "2 \t M" << endl;	
+打印结果：
+2M
+2        M
 	
 	
   
