@@ -1,0 +1,58 @@
+习题2.17  下列变量的初始值(如果有)是什么？
+
+std::string global_str;
+int global_int;
+
+int main()
+{
+	int local_int;
+	std::string local_str;
+	
+	//...
+	return 0;
+}
+
+global_str 为空
+local_str  为空
+global_int 为0
+local_int 不确定
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
