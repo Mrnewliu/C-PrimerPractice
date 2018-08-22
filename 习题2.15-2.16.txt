@@ -1,0 +1,24 @@
+习题 2.15 下面两个定义是否不同？ 有何不同？
+	int month = 9, day = 7;       //十进制表示
+	int month =09, day = 07;	  //想使用八进制表示，但是int month =09 表示错了。int month = 011;
+	如果上述定义有错误的，那么应该应该怎样改正呢？
+	
+	
+习题 2.16 假设calc是一个返回double对象的函数。下面哪些是非法定义？改正所有的非法定义。
+	(a) int car = 1024, auto = 2048;  非法 auto 是C++中的关键字
+	(b) int ival = ival;       
+	(c) std::cin >> int input_value;   非法 int 中不能出现
+	(d) double salary = wage = 9999.99  非法 wage 未定义
+	(e) double calc = calc();
+	
+
+	
+
+
+
+
+
+
+
+
+
