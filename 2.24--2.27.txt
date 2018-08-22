@@ -1,0 +1,28 @@
+习题 2.24 下列哪些定义是非法的？为什么？如何改正？
+	(a) int ival = 1.01	       (b) int &rval1 = 1.01;
+	(c) int &rval2 = ival;	   (d) const int &rval3 = 1;
+
+
+习题 2.25 在上提给出的定义下，下列哪些赋值是非法的？如果赋值合法，解释赋值的作用。
+	(a) rval2 = 3.14159;	(b) rval2 = rval3;
+	(c) ival = rval3;       (d) rval3 = ival;
+
+
+习题 2.26 (a)中的定义和(b)中的赋值存在哪些不同？哪些是非法的？
+	(a) int ival = 0;   	(b) ival = ri;
+		const int &ri = 0;  	ri = ival;
+
+
+习题 2.27 下列代码输出什么?
+	int i, &ri = i;
+	i = 5; ri = 10;
+	std::cout << i << " " << ri << std::endl;
+	
+	
+
+
+
+
+
+
+

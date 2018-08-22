@@ -1,0 +1,44 @@
+习题 2.19 下列程序中j的值是多少?
+	int i = 42;
+	int main()
+	{
+		int i = 100;
+		int j = i;
+		//....
+	}
+
+
+习题 2.20 下列程序段将会输出什么?
+	int i = 100, sum = 0;
+	for( int i = 0; i != 10; ++i)
+		sum += i;
+	std::cout << i << " " << sum << std::endl;
+	
+习题 2.21 下列程序合法吗？
+	int sum = 0;
+	for(int i  = 0; i != 10; ++i)
+		sum += i;
+	std::cout << "Sum from 0 to " << i
+		<< " is " << sum << std::endl;
+		
+	
+	
+
+
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
