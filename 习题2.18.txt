@@ -1,7 +1,7 @@
 习题2.18 解释下列例子中的name的意义：
-	extern std::string name;
-	std::string name("exercise 3.5a");
-	extern std::string name("exericise 3.5a");
+	extern std::string name;			 //声明，说明std::string 变量name在其他地方已经定义了。
+	std::string name("exercise 3.5a");		//定义 ， 定义了一个std::string 变量name，并且初始化为"exercise 3.5a"
+	extern std::string name("exericise 3.5a");	//定义 ，定义了一个std::string 变量name，并且初始化为"exercise 3.5a"，但是这只能在函数体外出现。(即name是一个全局变量) 
 	
 	
 	
