@@ -1,15 +1,15 @@
 习题2.31 判断下列语句哪些是声明，哪些是定义，请解释原因。
-	(a) extern int ix = 1024;
-	(b) int iy;
-	(c) extern int iz;
-	(d) extern const int &ri;
+	(a) extern int ix = 1024;  //定义
+	(b) int iy;                //定义
+	(c) extern int iz;        //声明
+	(d) extern const int &ri;  //声明
 
 
 习题2.32 下列申明和定义哪些应该放在头文件中？哪些应该放在源文件中？请解释原因。
-	(a) int var;
-	(b) const double pi = 3.1416;
-	(c) extern int total = 255;
-	(d) const double sq2 = squt(2.0);
+	(a) int var;                     源文件
+	(b) const double pi = 3.1416;  头文件
+	(c) extern int total = 255;     源文件
+	(d) const double sq2 = squt(2.0);  源文件
 
 
 习题2.33 确定你的编译器提供了哪些提高警告级别的选项。使用这些选项重新编译以前选择的
