@@ -1,0 +1,6 @@
+习题3.22  如果采用下面的方法来计算mide会产生什么结果？
+		vector<int>::iterator mid = (vi.begin() + vi.end()) /2;
+	
+
+
+

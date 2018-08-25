@@ -1,0 +1,24 @@
+习题3.11 下面哪些vector定义不正确？
+		(a) vector<vector <int>> ivec;
+		(b) vector<string> svec = ivec;
+		(c) vector<string> svec(10,"null");
+		
+习题3.12 下列每个vector对象中元素的个数是多少？各元素的值是多少？
+	(a) vector<int> ivec1;
+	(b) vector<int > ivec2(10);
+	(c) vector<int> ivec3(10,42);
+	(d) vector<string> svec1;
+	(e) vector<string> svec2(10);
+	(f)	vector<string> svec3(10,"hello");
+	
+	
+
+		
+
+
+
+
+
+
+
+
