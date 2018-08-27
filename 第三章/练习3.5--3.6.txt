@@ -1,9 +1,38 @@
 习题3.5 编写程序实现从标准输入每次读入一行文本。然后改写程序，每次读入一个单词
 
+void get_a_word()
+{
+	string world;
+	while ( cin >> world)
+	{
+		cout << world << endl;
+	}
+
+}
+
+void get_line()
+{
+	string line;
+	while (getline( cin ,line))
+	{
+		cout << line << endl;
+	}
+}
+
+
+int main()
+{
+	//get_a_word();
+	get_line();
+	
+	return 0;
+}
+
 
 
 习题3.6 解释string类型输入操作符和getline函数分别如何处理空白符。
-
+string类型输入操作将空白符处理换行符
+getline 将空白符处理成空白符
 
 
 
