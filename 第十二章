@@ -1,0 +1,27 @@
+12.1 编写一个名为Person 的类， 表示人的名字和地点。使用string来保存每个元素
+class Person
+{
+public:
+  Person();
+  Person(const string&,const string&);
+  
+  private:
+  string name;
+  string address;
+};
+
+12.2 为Person提供一个接受两个string参数的构造函数
+
+
+12.3 提供放回名字和地址的操作，这些函数因为const吗? 解释你的选择
+
+12.4 指明Person的哪个成员应声明为public,哪个成员应该生命为private.解释你的选择
+
+
+
+
+
+
+
+
+
